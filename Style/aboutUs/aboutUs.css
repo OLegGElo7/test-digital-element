@@ -1,5 +1,6 @@
 .aboutUs {
   padding-top: 253.81px;
+  padding-bottom: 212px;
 }
 .aboutUs .aboutUs__wrapper .aboutUs__cards {
   display: flex;
@@ -70,11 +71,18 @@
   letter-spacing: 0.7px;
   border: 0;
   padding: 0;
-  background: rgba(18, 135, 238, 0) 31.12%;
+  background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat 95% center;
+  transition: 0.2s all;
 }
 .aboutUs .aboutUs__wrapper .aboutUs__cards .aboutUs__leftSide .abousUs_leftSide-card button img {
   width: 24px;
   height: 24px;
+}
+.aboutUs .aboutUs__wrapper .aboutUs__cards .aboutUs__leftSide .abousUs_leftSide-card button:hover,
+.aboutUs .aboutUs__wrapper .aboutUs__cards .aboutUs__leftSide .abousUs_leftSide-card button:focus,
+.aboutUs .aboutUs__wrapper .aboutUs__cards .aboutUs__leftSide .abousUs_leftSide-card button:active {
+  background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat right center;
+  color: #065ca8;
 }
 .aboutUs .aboutUs__wrapper .aboutUs__rigthSide {
   max-width: 380px;
@@ -133,11 +141,18 @@
   letter-spacing: 0.7px;
   border: 0;
   padding: 0;
-  background: rgba(18, 135, 238, 0) 31.12%;
+  background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat 95% center;
+  transition: 0.2s all;
 }
 .aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideOne-card button img {
   width: 24px;
   height: 24px;
+}
+.aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideOne-card button:hover,
+.aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideOne-card button:focus,
+.aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideOne-card button:active {
+  background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat right center;
+  color: #065ca8;
 }
 .aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideTwo-card {
   border-radius: 10px;
@@ -191,9 +206,16 @@
   letter-spacing: 0.7px;
   border: 0;
   padding: 0;
-  background: rgba(18, 135, 238, 0) 31.12%;
+  background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat 95% center;
+  transition: 0.2s all;
 }
 .aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideTwo-card button img {
   width: 24px;
   height: 24px;
+}
+.aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideTwo-card button:hover,
+.aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideTwo-card button:focus,
+.aboutUs .aboutUs__wrapper .aboutUs__rigthSide .abousUs_rigthSideTwo-card button:active {
+  background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat right center;
+  color: #065ca8;
 }/*# sourceMappingURL=aboutUs.css.map */

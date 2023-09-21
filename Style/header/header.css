@@ -58,4 +58,11 @@ header .header__wrapper .header__navigation button {
   height: 100%;
   border: 0;
   padding: 0;
+}
+header .header__wrapper .header__navigation button:hover,
+header .header__wrapper .header__navigation button:focus,
+header .header__wrapper .header__navigation button:active {
+  background: rgba(1, 68, 127, 0.2431372549);
+  border-radius: 45px;
+  transition: 0.5s;
 }/*# sourceMappingURL=header.css.map */

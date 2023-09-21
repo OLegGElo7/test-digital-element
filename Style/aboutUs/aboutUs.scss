@@ -1,5 +1,6 @@
 .aboutUs {
   padding-top: 253.81px;
+  padding-bottom: 212px;
   .aboutUs__wrapper {
     .aboutUs__cards {
       display: flex;
@@ -67,11 +68,20 @@
             letter-spacing: 0.7px;
             border: 0;
             padding: 0;
-            background: rgba(18, 135, 238, 0) 31.12%;
+            background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg)
+              no-repeat 95% center;
+            transition: 0.2s all;
             img {
               width: 24px;
               height: 24px;
             }
+          }
+          button:hover,
+          button:focus,
+          button:active {
+            background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg)
+              no-repeat right center;
+            color: #065ca8;
           }
         }
       }
@@ -131,11 +141,20 @@
           letter-spacing: 0.7px;
           border: 0;
           padding: 0;
-          background: rgba(18, 135, 238, 0) 31.12%;
+          background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat
+            95% center;
+          transition: 0.2s all;
           img {
             width: 24px;
             height: 24px;
           }
+        }
+        button:hover,
+        button:focus,
+        button:active {
+          background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat
+            right center;
+          color: #065ca8;
         }
       }
       .abousUs_rigthSideTwo-card {
@@ -189,11 +208,20 @@
           letter-spacing: 0.7px;
           border: 0;
           padding: 0;
-          background: rgba(18, 135, 238, 0) 31.12%;
+          background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat
+            95% center;
+          transition: 0.2s all;
           img {
             width: 24px;
             height: 24px;
           }
+        }
+        button:hover,
+        button:focus,
+        button:active {
+          background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat
+            right center;
+          color: #065ca8;
         }
       }
     }

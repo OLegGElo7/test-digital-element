@@ -5,7 +5,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 786px;
+    height: 768px;
     z-index: -1;
     background: linear-gradient(
       0deg,
@@ -19,9 +19,7 @@
     position: relative;
 
     .home__wrapper-title {
-      padding-left: 129px;
       max-width: 510px;
-      padding-right: 100px;
 
       h1 {
         color: #1f3f68;
@@ -58,10 +56,16 @@
         background: #5a98d0;
         box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.2);
       }
+      button:hover,
+      button:focus,
+      button:active {
+        background: #01447ffd;
+        transition: 0.5s;
+      }
     }
     .home__wrapper-image {
       position: absolute;
-      left: 590.38px;
+      left: 442.38px;
       top: 99.76px;
       width: 687px;
       height: 613px;
