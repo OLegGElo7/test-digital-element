@@ -66,3 +66,24 @@ header {
     }
   }
 }
+@media (max-width: 1366px) {
+  header {
+    .header__wrapper {
+      max-width: 1000px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  header {
+    .header__wrapper {
+      max-width: 800px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  header {
+    .header__wrapper {
+      max-width: 700px;
+    }
+  }
+}

@@ -27,6 +27,16 @@
   max-width: 540px;
   opacity: 0.6;
 }
+@media (max-width: 1013px) {
+  .clients .clients__wrapper-title {
+    padding-left: 50px;
+    display: block;
+  }
+  .clients .clients__wrapper-title h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
 .clients .clients__border {
   background-color: rgba(170, 196, 248, 0.451);
 }
@@ -49,6 +59,7 @@
   line-height: 230%;
   letter-spacing: 0.4px;
   background-color: #5a98d0;
+  cursor: pointer;
 }
 .clients .clients__border .clients__cards .clients__card:hover,
 .clients .clients__border .clients__cards .clients__card:focus,
@@ -68,10 +79,20 @@
   line-height: 230%;
   letter-spacing: 0.4px;
   background-color: #5175a4;
+  cursor: pointer;
 }
 .clients .clients__border .clients__cards .clients__card-moreClient:hover,
 .clients .clients__border .clients__cards .clients__card-moreClient:focus,
 .clients .clients__border .clients__cards .clients__card-moreClient:active {
   background: #0363b7;
   transition: 0.5s;
+}
+@media (max-width: 1013px) {
+  .clients .clients__border .clients__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+  }
 }/*# sourceMappingURL=clietns.css.map */

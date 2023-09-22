@@ -65,4 +65,20 @@ header .header__wrapper .header__navigation button:active {
   background: rgba(1, 68, 127, 0.2431372549);
   border-radius: 45px;
   transition: 0.5s;
+}
+
+@media (max-width: 1366px) {
+  header .header__wrapper {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 700px) {
+  header .header__wrapper {
+    max-width: 800px;
+  }
+}
+@media (max-width: 600px) {
+  header .header__wrapper {
+    max-width: 700px;
+  }
 }/*# sourceMappingURL=header.css.map */

@@ -86,6 +86,41 @@
         }
       }
     }
+    @media (max-width: 757px) {
+      .aboutUs__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .aboutUs__leftSide {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 442px;
+          margin-right: 0px;
+          .aboutUs__title {
+            max-width: 1358px;
+            margin-top: 0px;
+            margin-bottom: 35px;
+            font-size: 24px;
+          }
+          .abousUs_leftSide-card {
+            margin-bottom: 100px;
+            padding-left: 28px;
+            padding-bottom: 28px;
+            padding-right: 28px;
+          }
+        }
+      }
+    }
+    @media (max-width: 358px) {
+      .aboutUs__cards {
+        .aboutUs__leftSide {
+          .aboutUs__title {
+            font-size: 18px;
+          }
+        }
+      }
+    }
     .aboutUs__rigthSide {
       max-width: 380px;
       .abousUs_rigthSideOne-card {
@@ -157,6 +192,21 @@
           color: #065ca8;
         }
       }
+      @media (max-width: 757px) {
+        .abousUs_rigthSideOne-card {
+          padding-bottom: 20px;
+          padding-left: 18px;
+          padding-right: 18px;
+        }
+      }
+      @media (max-width: 383px) {
+        .abousUs_rigthSideOne-card {
+          padding-bottom: 20px;
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+      }
+
       .abousUs_rigthSideTwo-card {
         border-radius: 10px;
         background: #fff;
@@ -216,12 +266,24 @@
             height: 24px;
           }
         }
+
         button:hover,
         button:focus,
         button:active {
           background: url(/img/svg/aboutUs/ic_arrow_forward_24px.svg) no-repeat
             right center;
           color: #065ca8;
+        }
+      }
+      @media (max-width: 757px) {
+        .abousUs_rigthSideTwo-card {
+          padding-left: 18px;
+          padding-right: 18px;
+        }
+      }
+      @media (max-width: 383px) {
+        .abousUs_rigthSideTwo-card {
+          padding-bottom: 80px;
         }
       }
     }
