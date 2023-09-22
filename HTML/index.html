@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/Style/home_/home.css" />
     <link rel="stylesheet" href="/Style/aboutUs/aboutUs.css" />
     <link rel="stylesheet" href="/Style/clients_/clietns.css" />
+    <link rel="stylesheet" href="/Style/modal/modal.css" />
     <link rel="stylesheet" href="/Style/footer/footer.css" />
   </head>
   <body>
@@ -157,7 +158,7 @@
                   Ut enim ad minim veniam.
                 </p>
               </div>
-              <button>Let’s Talk</button>
+              <button id="modal__button">Let’s Talk</button>
             </div>
             <div class="footer__vector">
               <img src="/img/svg/footer/Vector.svg" />
@@ -235,6 +236,49 @@
         </div>
       </footer>
       <!--footer end-->
+
+      <!--modal-->
+      <div id="modal" class="modal">
+        <div class="modal__content">
+          <form
+            class="form"
+            action="https://formspree.io/f/mrgwyodb"
+            method="POST"
+          >
+            <div class="modal__content-form">
+              <div class="modal__title">SEND US MESSAGE</div>
+              <p>Full Name</p>
+              <input
+                class="form__input"
+                type="text"
+                name="name"
+                placeholder="Your Name"
+              />
+              <p>Email</p>
+              <input
+                class="form__input form__unput-email"
+                type="text"
+                name="email"
+                placeholder="Your Email"
+              />
+              <p>Message</p>
+              <textarea
+                name="message"
+                class="form__input form__textarea"
+                cols="30"
+                rows="10"
+                wrap
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button class="sumbit" type="submit">SUBMIT</button>
+          </form>
+          <span id="modal__close" class="modal__close">&times;</span>
+        </div>
+      </div>
+      <!--modal-->
     </main>
+    <script src="/JavaScript/modal.js"></script>
+    <script src="/JavaScript/validation.js"></script>
   </body>
 </html>
