@@ -1,0 +1,98 @@
+.clients {
+  padding-bottom: 125.08px;
+  border-radius: 200px 0px 0px 0px;
+  background: #5a98d0;
+  .clients__wrapper-title {
+    padding-top: 96px;
+    display: flex;
+    margin-bottom: 111px;
+    h3 {
+      margin-right: 97px;
+      color: #fff;
+      font-family: "Gilroy-Light", sans-serif;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 127.778%;
+      letter-spacing: 1.8px;
+      height: 93px;
+    }
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 162.5%;
+      letter-spacing: 0.8px;
+      max-width: 540px;
+      opacity: 0.6;
+    }
+  }
+  @media (max-width: 1013px) {
+    .clients__wrapper-title {
+      padding-left: 50px;
+      display: block;
+      h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .clients__border {
+    background-color: rgba(170, 196, 248, 0.451);
+    .clients__cards {
+      display: grid;
+      grid-template-columns: repeat(4, 235px);
+      grid-template-rows: repeat(2, 128px);
+      grid-column-gap: 2px;
+      grid-row-gap: 1px;
+      .clients__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #f2f2f2;
+        font-family: "Gilroy-Light", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 230%;
+        letter-spacing: 0.4px;
+        background-color: #5a98d0;
+        cursor: pointer;
+      }
+      .clients__card:hover,
+      .clients__card:focus,
+      .clients__card:active {
+        background: #053967;
+        transition: 0.5s;
+      }
+      .clients__card-moreClient {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #f2f2f2;
+        font-family: "Gilroy-Light", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 230%;
+        letter-spacing: 0.4px;
+        background-color: #5175a4;
+        cursor: pointer;
+      }
+      .clients__card-moreClient:hover,
+      .clients__card-moreClient:focus,
+      .clients__card-moreClient:active {
+        background: #0363b7;
+        transition: 0.5s;
+      }
+    }
+    @media (max-width: 1013px) {
+      .clients__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 2px;
+        grid-row-gap: 1px;
+      }
+    }
+  }
+}
